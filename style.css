@@ -12,7 +12,7 @@ body {
   width: 20px;
   display: none;
 }
-.menu {
+#menu {
   border-top: 1.4rem solid #3ebfff;
   border-right: 1.4rem solid white;
   background-color: White;
@@ -24,22 +24,22 @@ body {
   display: none;
 }
 .active {
-  display: block;
+  display: block !important;
 }
-.menu ul {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
-  align-items: calc(100% + 5vw) !important;
-  list-style: none !important;
+#menu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: calc(100% + 5vw);
+  list-style: none;
 }
-.menu li {
-  color: grey !important;
+#menu li {
+  color: grey;
   padding: 20px 10px;
   width: fit-content;
   margin: 0 auto;
 }
-.menu li:hover {
+#menu li:hover {
   background-color: hsl(51, 100%, 49%);
   border-radius: 32px;
   width: 50vw;

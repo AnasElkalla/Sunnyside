@@ -1,6 +1,6 @@
 "use strict";
 const hamburger = document.querySelector("#hamburger");
-const menu = document.querySelector(".menu");
+const menu = document.querySelector("#menu");
 const screen = window.innerWidth;
 if (screen < 768) {
   hamburger.style.display = "inline-block";
