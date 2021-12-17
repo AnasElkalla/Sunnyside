@@ -497,8 +497,8 @@ i {
     background-size: cover;
     background-repeat: no-repeat;
   }
-  footer {
-    height: max-content;
+ footer {
+    height: 500px;
     background-color: rgba(144, 212, 197, 255);
     text-align: center;
     color: hsl(168, 34%, 41%);
@@ -508,18 +508,15 @@ i {
     width: 40%;
   }
   .attribution {
-    margin-top: 200px;
-
     text-align: center;
   }
   .footer {
     position: relative;
-    top: 50px;
+    top: 5px;
     word-spacing: 50px;
   }
   .icons {
     position: relative;
-    top: 140px;
   }
   i {
     font-size: 32px;
