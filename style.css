@@ -498,7 +498,7 @@ i {
     background-repeat: no-repeat;
   }
   footer {
-    height: 400px;
+    height: max-content;
     background-color: rgba(144, 212, 197, 255);
     text-align: center;
     color: hsl(168, 34%, 41%);
